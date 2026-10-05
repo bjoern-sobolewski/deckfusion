@@ -1,6 +1,6 @@
 # Unified Controls for Stream Deck
 
-Download the [latest Windows x64 installer](https://github.com/bjoern-sobolewski/streamdeck-releases/releases/latest).
+Download the [latest Windows x64 installer](https://github.com/bjoern-sobolewski/unified-streamdeck/releases/latest).
 
 One native Rust process provides 46 actions for audio and application mixing,
 monitor brightness and focus mode, Home Assistant, TeamSpeak, timers and system
