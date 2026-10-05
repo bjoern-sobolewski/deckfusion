@@ -1,4 +1,4 @@
-# Unified Controls for Stream Deck
+# DeckFusion for Stream Deck
 
 Native Windows x64 controls in one process: audio, application mixer, monitor
 brightness and focus mode, Home Assistant, TeamSpeak, timers and system tools.
@@ -7,9 +7,9 @@ brightness and focus mode, Home Assistant, TeamSpeak, timers and system tools.
 
 1. Install Elgato Stream Deck 6.5 or newer on Windows 10/11 x64.
 2. Download the `.streamDeckPlugin` file from the
-   [latest release](https://github.com/bjoern-sobolewski/unified-streamdeck/releases/latest).
+   [latest release](https://github.com/bjoern-sobolewski/deckfusion/releases/latest).
 3. Double-click the file and accept Stream Deck's plugin installation prompt.
-4. Drag actions from **Unified Controls** onto your keys, then select your own
+4. Drag actions from **DeckFusion** onto your keys, then select your own
    audio devices, monitors, apps and automation entities in their settings.
 
 No Rust, Python, Node, sccache or separate Visual C++ runtime installation is
