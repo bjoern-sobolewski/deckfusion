@@ -6,6 +6,9 @@ One native Rust process provides 46 actions for audio and application mixing,
 monitor brightness and focus mode, Home Assistant, TeamSpeak, timers and system
 controls. Configure your own devices and Home Assistant connection on each PC.
 
+Version 0.1.2 adds a hold-to-open light options menu for Stream Deck XL, digital
+clocks with press-to-toggle seconds, faster menu navigation and less idle polling.
+
 ## Install and update
 
 Download the `.streamDeckPlugin` asset and double-click it. Requires Windows 10/11

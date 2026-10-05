@@ -14,7 +14,7 @@ brightness and focus mode, Home Assistant, TeamSpeak, timers and system tools.
 
 No Rust, Python, Node, sccache or separate Visual C++ runtime installation is
 needed. The installer adds this plugin alongside your existing plugins.
-The optional bundled Mixer profile is for Stream Deck XL; individual actions
+The bundled Mixer and LightMenu profiles are for Stream Deck XL; individual actions
 work on other models. Encoder support is implemented but not physically tested.
 
 ## Home Assistant
@@ -26,6 +26,18 @@ Windows account; configure each computer separately. Use a trusted network for
 HTTP or use HTTPS. Search entities by name, ID, area or device, filter domains
 and save favorites. Light controls include brightness, supported colors,
 temperature, effects and transitions; switches support on/off/toggle.
+
+On Stream Deck XL, hold a key configured for one light or light group for 700 ms,
+then release to open its light options menu. A short press toggles the light.
+The menu offers supported brightness, white/color controls, matching scenes and
+group members; Back returns to the previous profile. Explicit hold settings
+override this automatic behavior.
+
+## Clocks
+
+Clock keys show digital time with a separate weekday and optional date row.
+Choose local time or an IANA timezone and a 12/24-hour format. Press the clock
+to show or hide seconds. Without seconds, it refreshes at minute boundaries.
 
 ## Monitors and audio
 

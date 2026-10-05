@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.1.2 — 2026-10-05
+
+- Hold a Home Assistant light or light-group key to open its on-device options
+  menu, with brightness, white/color presets, scenes and individual lights.
+  The reusable LightMenu profile is included for Stream Deck XL.
+- Digital clocks show separate time, weekday and optional date rows. Press a
+  clock key to toggle seconds; minute-only clocks refresh at minute boundaries.
+- Faster light-menu navigation uses cached entity capabilities and state,
+  batches watch updates and avoids redundant rendering and registry requests.
+- Audio notifications wake the worker directly. Idle timers, monitor restoration
+  and system workers wake when needed, reducing background polling.
+- Light labels wrap within two lines, and clock/shutdown artwork is refreshed.
+- Local configuration scripts back up and apply room layouts, clock settings
+  and light labels; these personal setup tools are not included in the installer.
+
+Validated with Rust tests, strict Clippy, Python migration tests, native SDK host
+and editor checks, light-menu and performance regression tests, release privacy
+checks and official Elgato packaging validation. Second-PC install/upgrade,
+physical encoders and a long-duration soak remain pending.
+
 ## 0.1.1 — 2026-10-05
 
 First portable Windows x64 release with 46 actions.
