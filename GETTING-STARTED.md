@@ -33,6 +33,12 @@ The menu offers supported brightness, white/color controls, matching scenes and
 group members; Back returns to the previous profile. Explicit hold settings
 override this automatic behavior.
 
+Expand **Home Assistant connection** in an action's settings to see connection
+status, retry timing and recent failures. Use **Reconnect now** to retry immediately,
+**Refresh status** for a current snapshot, or **Copy diagnostics** when troubleshooting.
+Saved connections recover automatically after startup, network, authentication
+and state-subscription failures. Service commands are never replayed on reconnect.
+
 ## Clocks
 
 Clock keys show digital time with a separate weekday and optional date row.

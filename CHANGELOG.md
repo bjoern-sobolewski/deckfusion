@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.1.3 — 2026-10-11
+
+- Home Assistant reconnects automatically after unavailable startup settings or
+  credentials, dropped connections, authentication rejection, missed heartbeat
+  replies and failed state subscriptions. Retry deadlines remain active under
+  heavy event traffic; service commands are never replayed.
+- Home Assistant settings show connection status, retry timing, recent failures
+  and reconnect counts, with Reconnect now, Refresh status and Copy diagnostics.
+  Connection history is bounded and excludes credentials.
+- Clearer tooltips and descriptions explain all 46 actions. Settings use a compact
+  layout, with a collapsed entity picker for configured Home Assistant keys.
+- Browser-editor changes save in order, and closing the editor submits the final
+  settings snapshot. Per-monitor brightness selections persist, and editing a
+  dial preserves its encoder feedback channel.
+- Local profile tools preserve configured native mixer slots and support updating
+  a light overview without regenerating detail pages. These personal setup tools
+  are excluded from the installer.
+
 ## 0.1.2 — 2026-10-05
 
 - Hold a Home Assistant light or light-group key to open its on-device options
