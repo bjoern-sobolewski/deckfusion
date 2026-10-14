@@ -6,9 +6,11 @@ One native Rust process provides 46 actions for audio and application mixing,
 monitor brightness and focus mode, Home Assistant, TeamSpeak, timers and system
 controls. Configure your own devices and Home Assistant connection on each PC.
 
-Version 0.1.3 improves Home Assistant recovery and connection diagnostics, adds
-clearer action help, and fixes browser-editor saves, monitor selections and
-encoder feedback. Light menus and digital clocks remain included.
+Version 0.1.5 fixes Home Assistant setup on new installations and shows the actual
+settings location when Windows redirects app data. Local deployment now uses the
+same Windows user context as sign-in startup, keeping the saved connection
+available after restarting. Automatic connection recovery, light menus and
+digital clocks remain included.
 
 ## Install and update
 

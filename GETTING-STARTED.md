@@ -19,9 +19,10 @@ work on other models. Encoder support is implemented but not physically tested.
 
 ## Home Assistant
 
-Add a Home Assistant action. Enter your instance URL and a dedicated long-lived
+Add a Home Assistant action. Before setup, **Setup required** opens the connection
+fields automatically. Enter your instance URL and a dedicated long-lived
 access token created in Home Assistant under your profile's Security settings.
-Press **Save connection**. Tokens stay in Windows Credential Manager for your
+Press **Save and connect**; no restart is required. Tokens stay in Windows Credential Manager for your
 Windows account; configure each computer separately. Use a trusted network for
 HTTP or use HTTPS. Search entities by name, ID, area or device, filter domains
 and save favorites. Light controls include brightness, supported colors,

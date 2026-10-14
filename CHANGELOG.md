@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.1.5 — 2026-10-14
+
+- Local deployment starts Stream Deck in the normal Windows user context,
+  preventing packaged editors from giving it a private AppData view that differs
+  from startup at sign-in. The temporary launcher task is removed after use.
+- Home Assistant diagnostics show the actual backing settings path and flag
+  redirected storage, making missing configuration after a restart diagnosable.
+
+## 0.1.4 — 2026-10-11
+
+- A new installation without Home Assistant settings or a token shows **Setup
+  required** and opens the connection fields. Save and connect applies the setup
+  immediately without restarting Stream Deck.
+- Missing first-install data is separated from invalid JSON, unreadable settings,
+  vault failures and loss of a previously complete configuration. Real failures
+  retain automatic recovery and diagnostic history. Diagnostics include the
+  exact settings file path used by the running plugin.
+
 ## 0.1.3 — 2026-10-11
 
 - Home Assistant reconnects automatically after unavailable startup settings or
