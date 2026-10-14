@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.6 — 2026-10-14
+
+- Home Assistant keys now offer **Compact sensor card** mode with up to six
+  independent entity or attribute readings. Configure searchable rows, card and
+  room headings, optional labels, units, decimal places, and row order in the
+  embedded inspector or expanded browser editor.
+- Each row can show a vector icon or **None**, allowing ppm and temperature
+  values to stand on their own. Values fit the available space; optional warning
+  thresholds highlight individual readings in amber.
+- Cards update from Home Assistant events, initialize from cached readings, and
+  recover after reconnecting. Missing readings show a dash; disconnected cards
+  show **HA offline**. Pressing a sensor card does not call a service.
+- Verified with Rust and Python tests, inspector save checks, native card,
+  light-menu and connection-recovery tests, and live read-only sensor readings.
+  Local layout tools and personal configuration remain outside the installer.
+
 ## 0.1.5 — 2026-10-14
 
 - Local deployment starts Stream Deck in the normal Windows user context,

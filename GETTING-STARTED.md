@@ -28,6 +28,14 @@ HTTP or use HTTPS. Search entities by name, ID, area or device, filter domains
 and save favorites. Light controls include brightness, supported colors,
 temperature, effects and transitions; switches support on/off/toggle.
 
+Choose **Key mode → Compact sensor card** to show up to six readings on one
+key. Add rows, search for each entity, and choose an icon (or **None**), optional attribute,
+room/group heading, unit override, and decimal places. Optional warning thresholds
+color that row amber. Cards update from Home Assistant state events; missing
+readings show a dash, and a disconnected card shows **HA offline**. Pressing a
+sensor card does not run a service. All row controls are also available through
+**Expand ↗** in the browser editor.
+
 On Stream Deck XL, hold a key configured for one light or light group for 700 ms,
 then release to open its light options menu. A short press toggles the light.
 The menu offers supported brightness, white/color controls, matching scenes and
