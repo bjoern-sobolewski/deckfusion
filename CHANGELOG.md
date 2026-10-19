@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.7 — 2026-10-19
+
+- CPU usage keys now offer a four-row PC statistics card with CPU usage,
+  available RAM, GPU usage and free VRAM. GPU readings use the installed NVIDIA
+  driver and select the GPU with the most video memory. Unsupported readings
+  show a dash; existing CPU-only keys keep their current display.
+- Compact Home Assistant sensor cards can place larger labels beside their
+  values. Leave the card heading empty for more space, or keep the existing
+  stacked labels.
+- Sensor entity fields now autocomplete names, IDs, rooms and devices in one
+  field. Search text is not saved as an entity; manually entered and temporarily
+  unavailable entity IDs remain supported.
+- Verified with Rust and Python tests, strict Clippy, inspector save checks,
+  native sensor-card, light-menu and connection-recovery tests, and live NVIDIA
+  PC statistics including periodic updates and CPU-only compatibility.
+
 ## 0.1.6 — 2026-10-14
 
 - Home Assistant keys now offer **Compact sensor card** mode with up to six

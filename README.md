@@ -6,13 +6,13 @@ One native Rust process provides 46 actions for audio and application mixing,
 monitor brightness and focus mode, Home Assistant, TeamSpeak, timers and system
 controls. Configure your own devices and Home Assistant connection on each PC.
 
-Version 0.1.6 adds compact Home Assistant sensor cards: combine up to six live
-entity or attribute readings on one key, with headings, units, decimal places,
-optional icons and warning thresholds. Use separate keys for larger room
-readings, or group several rooms on one card. Configure rows in the inspector or
-expanded browser editor. Cards update automatically and show missing/offline
-readings clearly. Automatic connection recovery, light menus, digital clocks and
-the startup fixes from 0.1.5 remain included.
+Version 0.1.7 adds a PC statistics display with CPU usage, available RAM, GPU
+usage and free VRAM on one key. GPU readings use the installed NVIDIA driver;
+unsupported readings show a dash. Existing CPU-only keys keep their display.
+Compact Home Assistant sensor cards gain larger labels beside values and a
+single entity field with autocomplete by name, ID, room or device. Up to six
+sensor readings, connection recovery, light menus and digital clocks remain
+included. Configure cards in the inspector or expanded browser editor.
 
 ## Install and update
 

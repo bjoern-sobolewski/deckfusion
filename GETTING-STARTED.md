@@ -29,12 +29,17 @@ and save favorites. Light controls include brightness, supported colors,
 temperature, effects and transitions; switches support on/off/toggle.
 
 Choose **Key mode → Compact sensor card** to show up to six readings on one
-key. Add rows, search for each entity, and choose an icon (or **None**), optional attribute,
+key. Add rows, type an entity name, ID, room or device and choose an autocomplete
+suggestion (or enter an entity ID directly). Choose an icon (or **None**), optional attribute,
 room/group heading, unit override, and decimal places. Optional warning thresholds
 color that row amber. Cards update from Home Assistant state events; missing
 readings show a dash, and a disconnected card shows **HA offline**. Pressing a
 sensor card does not run a service. All row controls are also available through
 **Expand ↗** in the browser editor.
+
+For easier-to-read labels, choose **Row labels → Large, beside value**. Short
+labels work best beside icons and numbers. Leave **Card heading** empty to give
+the readings more vertical space.
 
 On Stream Deck XL, hold a key configured for one light or light group for 700 ms,
 then release to open its light options menu. A short press toggles the light.
@@ -53,6 +58,14 @@ and state-subscription failures. Service commands are never replayed on reconnec
 Clock keys show digital time with a separate weekday and optional date row.
 Choose local time or an IANA timezone and a 12/24-hour format. Press the clock
 to show or hide seconds. Without seconds, it refreshes at minute boundaries.
+
+## PC statistics
+
+On a **System · CPU usage** key, choose **Display → CPU, free RAM, GPU, free VRAM**
+for four compact icon rows. RAM and VRAM show free memory in binary GB/MB;
+CPU and GPU show usage percentages. Readings refresh every second by default.
+GPU readings use the installed NVIDIA driver, selecting the dedicated GPU with
+the most VRAM. Unsupported readings show a dash. No monitoring app is required.
 
 ## Monitors and audio
 
