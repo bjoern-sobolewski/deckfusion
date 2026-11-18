@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.1.8 — 2026-11-18
+
+- Home Assistant controls become ready after authentication and entity state
+  synchronization. Slow connection attempts leave the inspector responsive.
+  Automatic recovery reloads saved credentials, verifies heartbeat replies and
+  refreshes visible entity state. Recovered sessions accept fresh commands only.
+  Use the final Home Assistant URL when connecting through a redirecting proxy.
+- Network checks run independently of local Windows controls. Reconfigured keys
+  ignore stale replies. Momentary audio mute releases the original endpoint,
+  and monitor recovery tracks the affected displays and retries failed restores.
+- Counter, clipboard and Explorer saves apply after successful disk writes.
+  Blank shared groups are scoped to each key. File-watch destinations recover
+  independently from copy failures.
+- TeamSpeak retries dropped connections with bounded reads. The browser editor
+  rejects stale saves, and clearing a numeric field uses its configured default.
+- Verified with Rust and migration tests, strict Clippy, inspector checks, and
+  native release smoke tests. Live audio, TeamSpeak, monitor, PC telemetry and
+  Home Assistant checks were read-only.
+
 ## 0.1.7 — 2026-10-19
 
 - CPU usage keys now offer a four-row PC statistics card with CPU usage,

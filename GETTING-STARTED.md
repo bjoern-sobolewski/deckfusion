@@ -51,7 +51,9 @@ Expand **Home Assistant connection** in an action's settings to see connection
 status, retry timing and recent failures. Use **Reconnect now** to retry immediately,
 **Refresh status** for a current snapshot, or **Copy diagnostics** when troubleshooting.
 Saved connections recover automatically after startup, network, authentication
-and state-subscription failures. Service commands are never replayed on reconnect.
+and state-subscription failures. **Connected** means entity state has synchronized
+and controls are ready. Recovered sessions accept fresh commands only. Enter
+the final instance URL if a reverse proxy redirects HTTP to HTTPS or adds a path.
 
 ## Clocks
 
