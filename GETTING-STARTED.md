@@ -43,9 +43,11 @@ the readings more vertical space.
 
 On Stream Deck XL, hold a key configured for one light or light group for 700 ms,
 then release to open its light options menu. A short press toggles the light.
-The menu offers supported brightness, white/color controls, matching scenes and
-group members; Back returns to the previous profile. Explicit hold settings
-override this automatic behavior.
+The menu shows the brightness and color controls the light supports, matching
+scenes and individual group members. Tap a member lamp to toggle it, or hold
+it for 700 ms and release to open its own controls. **Back** returns from the
+lamp to the room menu. Press **Back** again to return to your original profile.
+Explicit hold settings on the original key override the automatic menu.
 
 Expand **Home Assistant connection** in an action's settings to see connection
 status, retry timing and recent failures. Use **Reconnect now** to retry immediately,

@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.9 — 2026-11-19
+
+- On Stream Deck XL, hold an individual lamp in a Home Assistant room menu
+  to open its brightness and color controls. A tap still toggles the lamp.
+  Back returns to the room, then to the original profile.
+- A broken Home Assistant title template on one key no longer interrupts
+  updates to other keys. If Home Assistant rejects a server-side title
+  template, the key can still display its entity state.
+- The expanded browser editor retries after temporary connection failures
+  and blocks a test action when its settings failed to save.
+- The Windows x64 release build passed 46 Rust tests and six migration tests.
+  Native tests exercised lamp navigation, sensor updates and editor saves.
+
 ## 0.1.8 — 2026-11-18
 
 - Home Assistant controls become ready after authentication and entity state

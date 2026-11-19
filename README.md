@@ -6,11 +6,9 @@ One native Rust process provides 46 actions for audio and application mixing,
 monitor brightness and focus mode, Home Assistant, TeamSpeak, timers and system
 controls. Configure your own devices and Home Assistant connection on each PC.
 
-Version 0.1.8 improves startup and reconnect behavior for Home Assistant,
-isolates slow network checks from Windows controls, and improves monitor
-recovery, momentary audio mute, file copies and editor saves. It includes the
-four-row PC statistics display and compact Home Assistant sensor cards with up
-to six readings per key. See the [changelog](CHANGELOG.md) for details.
+Version 0.1.9 lets you hold an individual lamp in a Home Assistant room menu
+on Stream Deck XL to adjust that lamp. It also improves title template error
+handling and browser editor saves. See the [changelog](CHANGELOG.md) for details.
 
 ## Install and update
 
